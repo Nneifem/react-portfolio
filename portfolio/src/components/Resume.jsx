@@ -1,10 +1,11 @@
+import resumePdf from './resume.pdf'
 export default function Resume(){
     return(
         <>
-        <header>Resume</header>
-        <p>add download link to resume</p>
+        <h3>Resume</h3>
+        <a href={resumePdf} download='resume-pdf' target='_blank' rel='noreferrer'>Download my resume</a>
         <section className="fron-end">
-            <div>Front-End Skills</div>
+            <h4>Front-End Skills</h4>
             <ul>
                 <li>JavaScript</li>
                 <li>HTML</li>
@@ -15,7 +16,7 @@ export default function Resume(){
             </ul>
         </section>
         <section className="back-end">
-            <div>Back-End Skills</div>
+            <h4>Back-End Skills</h4>
             <ul>
                 <li>Node.js</li>
                 <li>Express</li>
@@ -29,5 +30,4 @@ export default function Resume(){
         </section>
         </>
     )
-
 };
