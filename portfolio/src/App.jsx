@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import About from './components/About'
-import Resume from './components/Resume'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Project from './components/Project'
+// import './App.css
+import Footer from './pages/Footer'
+import Nav from './components/Nav'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <About />
-      <Resume />
-      <Contact />
-      <Project />
+      <Nav />
+
+      <Outlet />
       <Footer />
     </>
   )
