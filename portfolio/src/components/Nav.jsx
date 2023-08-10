@@ -5,6 +5,7 @@ function Nav(){
 
     return(
         <ul className="nav-section">
+            <header className="name-title">Nneif Akpunonu</header>
             <li className="nav-item">
                 <Link
                     to='/about'

@@ -13,37 +13,37 @@ export default function Project(){
             name: "Recipedia",
             githubLink: "https://github.com/ruggerheist/recipedia",
             websiteLink: "https://ruggerheist.github.io/recipedia/",
-            image: {recipediaImage},
+            image: recipediaImage,
         },
         {
             name: "Bookbusta",
             githubLink: "https://github.com/Nneifem/bookbusta",
             websiteLink: "https://bookbusta-950538aa625f.herokuapp.com/",
-            image: {bookbustaImage},
+            image: bookbustaImage,
         },
         {
             name: "Weather Dashboard",
             githubLink: "https://github.com/Nneifem/weather-dashboard",
             websiteLink: "https://nneifem.github.io/weather-dashboard/",
-            image: {weatherDashboardImage},
+            image: weatherDashboardImage,
         },
         {
             name: "Text Editor",
             githubLink: "https://github.com/Nneifem/text-editor",
             websiteLink: "https://nneif-text-editor-2d4fcad3ac4f.herokuapp.com/",
-            image: {textEditorImage},
+            image: textEditorImage,
         },
         {
             name: "Note Taker",
             githubLink: "https://github.com/Nneifem/note-taker",
             websiteLink: "https://nneif-note-taker.herokuapp.com/",
-            image: {noteTakerImage},
+            image: noteTakerImage,
         },
         {
             name: "Password Generator",
             githubLink: "https://github.com/Nneifem/password-generator",
             websiteLink: "https://nneifem.github.io/password-generator/",
-            image: {passwordGeneratorImage},
+            image: passwordGeneratorImage,
         },
 
     ]
