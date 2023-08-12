@@ -40,29 +40,31 @@ function Form(){
 
     return(
         <>
-        <form className="form" onSubmit={handleFormSubmit}>
-            <h4>Name</h4>
-            <input
+        <form onSubmit={handleFormSubmit}>
+            <div className="mb-3">
+            <label className="form-label">Name</label>
+            <input className="form-control"
                 value={name}
                 name="name"
                 onChange={handleInputChange}
                 type="text"
             />
-            <h4>Email</h4>
-            <input
+            <label className="form-label">Email</label>
+            <input className="form-control"
                 value={email}
                 name="email"
                 onChange={handleInputChange}
                 type="email"
             />
-            <h4>Message</h4>
-            <input
+            <label className="form-label">Message</label>
+            <input className="form-control"
                 value={message}
                 name="message"
                 onChange={handleInputChange}
                 type="text"
             />
-            <button type="submit">Sumbit</button>
+            <button type="submit" class="btn btn-primary">Sumbit</button>
+            </div>
         </form>
         {errorMessage && (
             <div className='error'>

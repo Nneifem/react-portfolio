@@ -8,6 +8,8 @@ import Project from './pages/Project'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 const router = createBrowserRouter([
   {
     path: '/',

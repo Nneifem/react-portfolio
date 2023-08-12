@@ -55,9 +55,19 @@ export default function Project(){
                 {
                     projects.map((project, i) => (
                         <li key = {i}>
-                            <img src={project.image} className="project-images" alt="each picture image"></img>
-                            <a href={project.websiteLink}>{project.name}</a>
-                            <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
+                        <div className="card mb-3">
+                            <div className="row g-0">
+                                <div className="col-md-4">
+                                <img src={project.image} className="img-fluid rounded-start" alt="each picture image"></img>
+                            </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <a href={project.websiteLink}>{project.name}</a>
+                                        <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                         </li>
                     ))
                 }

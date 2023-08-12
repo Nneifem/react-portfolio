@@ -4,8 +4,9 @@ function Nav(){
     const currentPage = useLocation().pathname;
 
     return(
-        <ul className="nav-section">
-            <header className="name-title">Nneif Akpunonu</header>
+        <>
+        <header className="name-title">Nneif Akpunonu</header>
+        <ul className="nav justify-content-end nav-tabs">
             <li className="nav-item">
                 <Link
                     to='/about'
@@ -39,6 +40,7 @@ function Nav(){
                 </Link>
             </li>
         </ul>
+        </>
     );
 }
 
