@@ -40,30 +40,30 @@ function Form(){
 
     return(
         <>
-        <form onSubmit={handleFormSubmit}>
+        <form className="p-4"onSubmit={handleFormSubmit}>
             <div className="mb-3">
             <label className="form-label">Name</label>
-            <input className="form-control"
+            <input className="form-control" style={{ width: "20rem"}}
                 value={name}
                 name="name"
                 onChange={handleInputChange}
                 type="text"
             />
             <label className="form-label">Email</label>
-            <input className="form-control"
+            <input className="form-control" style={{ width: "20rem"}}
                 value={email}
                 name="email"
                 onChange={handleInputChange}
                 type="email"
             />
             <label className="form-label">Message</label>
-            <input className="form-control"
+            <textarea className="form-control" style={{ width: "20rem"}}
                 value={message}
                 name="message"
                 onChange={handleInputChange}
                 type="text"
             />
-            <button type="submit" class="btn btn-primary">Sumbit</button>
+            <button type="submit" className="btn btn-primary" >Sumbit</button>
             </div>
         </form>
         {errorMessage && (

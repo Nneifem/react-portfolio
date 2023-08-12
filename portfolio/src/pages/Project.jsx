@@ -55,7 +55,7 @@ export default function Project(){
                 {
                     projects.map((project, i) => (
                         <li key = {i}>
-                        <div className="card mb-3">
+                        <div className="card mb-3" style={{ width: "80rem"}}>
                             <div className="row g-0">
                                 <div className="col-md-4">
                                 <img src={project.image} className="img-fluid rounded-start" alt="each picture image"></img>
