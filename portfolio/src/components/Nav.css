@@ -1,9 +1,16 @@
-.name-title {
+/* .name-title {
     display: flex;
     padding-right: 800px;
     font-size: 30px;
-}
+} */
 
 .nav {
-    padding-top: 20px;
+    padding-top: 50px;
 }
+
+
+.nav-tabs .nav-item .nav-link {
+    background-color: #634832;
+    color: #ece0d1
+  }
+

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail, validateMessage, validateName } from '../utils/helpers';
+import './Contact.css'
 
 function Form(){
     const [name, setName] = useState('');
@@ -40,8 +41,9 @@ function Form(){
 
     return(
         <>
-        <form className="p-4"onSubmit={handleFormSubmit}>
-            <div className="mb-3">
+        <h3>Contact</h3>
+        <form onSubmit={handleFormSubmit}>
+            <div>
             <label className="form-label">Name</label>
             <input className="form-control" style={{ width: "20rem"}}
                 value={name}

@@ -50,24 +50,24 @@ export default function Project(){
     
     return(
         <section>
-            <h3>My Projects</h3>
+            <h3 className="project-name">My Projects</h3>
             <ul>
                 {
                     projects.map((project, i) => (
                         <li key = {i}>
-                        <div className="card mb-3" style={{ width: "80rem"}}>
-                            <div className="row g-0">
-                                <div className="col-md-4">
+                            <div className="container text-center">
+                            <div className="row row-cols-2">
+                                <div className="col">
+                                    <div className="card">
                                 <img src={project.image} className="img-fluid rounded-start" alt="each picture image"></img>
-                            </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
+                                    <div className="card-title">
                                         <a href={project.websiteLink}>{project.name}</a>
+                                    </div>
                                         <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
+                                    </div>
                                 </div>
                             </div>
                             </div>
-                        </div>
                         </li>
                     ))
                 }

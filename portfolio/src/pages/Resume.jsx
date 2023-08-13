@@ -1,10 +1,11 @@
 import resumePdf from './resume.pdf'
+import './Resume.css'
 export default function Resume(){
     return(
         <>
         <h3>Resume</h3>
-        <body className="p-3">
-        <a href={resumePdf} download='resume-pdf' target='_blank' rel='noreferrer'>Download my resume</a>
+        <body>
+        <a href={resumePdf} download='resume-pdf' target='_blank' rel='noreferrer' className="resume-link">Download my resume</a>
         <section className="front-end">
             <h4>Front-End Skills</h4>
             <ul className="list-group list-group-disc" style={{ width: "9rem" }}>

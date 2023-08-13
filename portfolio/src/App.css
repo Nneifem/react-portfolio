@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 } */
+
+body {
+  background-color: #dbc1ac;
+  color: #38220f;
+  font-family: 'American Typewriter';
+}

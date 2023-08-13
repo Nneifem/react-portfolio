@@ -2,7 +2,8 @@
     width: 12em;
     border-radius: 60%;
     float: left;
-    padding-right: 10px;
+    padding-left: 15px;
+
 }
 
 .bio {
@@ -10,11 +11,10 @@
     padding-right: 18px;
 }
 
-.about-me {
-    padding: 50px;
+h3 {
+    font-family: 'Impact', fantasy;
 }
 
-h3 {
-    padding-left: 30px;
-    padding-bottom: 20px;
+p {
+    font-family: 'American Typewriter'
 }
