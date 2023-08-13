@@ -1,12 +1,13 @@
 import { Link, useLocation } from 'react-router-dom'
+import '../components/Nav.css'
 
 function Nav(){
     const currentPage = useLocation().pathname;
 
     return(
         <>
-        <header className="name-title">Nneif Akpunonu</header>
         <ul className="nav justify-content-end nav-tabs">
+        <header className="name-title">Nneif Akpunonu</header>
             <li className="nav-item">
                 <Link
                     to='/about'

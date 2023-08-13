@@ -18,15 +18,15 @@ export default function Resume(){
         </section>
         <section className="back-end">
             <h4>Back-End Skills</h4>
-            <ul>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Object-Oriented Programming</li>
-                <li>SQL</li>
-                <li>NoSQL</li>
-                <li>MIPS</li>
-                <li>MongoDB</li>
-                <li>Mongoose</li>
+            <ul className="list-group list-group-disc" style={{ width: "9rem" }}>
+                <li className="list-group-item">Node.js</li>
+                <li className="list-group-item">Express</li>
+                <li className="list-group-item">Object-Oriented Programming</li>
+                <li className="list-group-item">SQL</li>
+                <li className="list-group-item">NoSQL</li>
+                <li className="list-group-item">MIPS</li>
+                <li className="list-group-item">MongoDB</li>
+                <li className="list-group-item">Mongoose</li>
             </ul>
         </section>
         </body>

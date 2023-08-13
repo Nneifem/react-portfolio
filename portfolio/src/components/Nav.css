@@ -1,0 +1,9 @@
+.name-title {
+    display: flex;
+    padding-right: 800px;
+    font-size: 30px;
+}
+
+.nav {
+    padding-top: 20px;
+}
