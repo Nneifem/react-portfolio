@@ -1,5 +1,5 @@
 import selfieImage from '../assets/selfie.jpg'
-import './About.css'
+import './style/About.css'
 
 export default function About(){
     return(

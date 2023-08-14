@@ -1,22 +1,26 @@
 .title {
     font-size: 30px;
+    text-align: left;
 }
 
 .nav {
     padding-top: 50px;
-    display: flex;
+    display: flex; 
     justify-content: space-around;
 }
 
-.nav-tabs .nav-item .nav-link {
+.nav-pills .nav-item .nav-link {
     background-color: #634832;
-    width: 190px;
     color: #ece0d1;
-    border-bottom: 5px solid #634832;
   }
 
+  .nav-pills .nav-item .nav-link:hover {
+    background-color:#a0734d;
+  }
+
+
   @media screen and (max-width: 992px){
-    .nav-tabs .nav-item .nav-link {
+    .nav-pills .nav-item .nav-link {
         width: auto;
     }
   }
@@ -29,7 +33,7 @@
        font-size: 40px;
     }
 
-    .nav-tabs .nav-item .nav-link {
+    .nav-pills .nav-item .nav-link {
         margin: 5px;
         display: flex;
         justify-content: center;

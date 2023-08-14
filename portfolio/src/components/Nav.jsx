@@ -8,7 +8,7 @@ function Nav(){
     return(
         <>
         <div style={{ backgroundImage: `url(${neutralBackground})`}}>
-        <ul className="nav nav-tabs justify-content-space-between flex-column flex-md-row">
+        <ul className="nav nav-pills justify-content-space-between flex-column flex-md-row">
         <header className="title">Nneif Akpunonu</header>
             <li className="nav-item">
                 <Link

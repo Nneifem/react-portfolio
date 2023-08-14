@@ -1,5 +1,5 @@
 import resumePdf from './resume.pdf'
-import './Resume.css'
+import './style/Resume.css'
 export default function Resume(){
     return(
         <>

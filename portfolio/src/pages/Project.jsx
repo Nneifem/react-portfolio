@@ -5,7 +5,7 @@ import textEditorImage from '../assets/text.png'
 import noteTakerImage from '../assets/note.png'
 import passwordGeneratorImage from '../assets/password.png'
 import githubLogo from '../assets/github.svg.png'
-import './Project.css'
+import './style/Project.css'
 
 export default function Project(){
     const projects = [
