@@ -2,7 +2,7 @@
 
 ## Description
 
-I build this new portfolio as a way to have a more organized, better presenting porfolio about myself, projects, and skills. By doing this, I got to learn how to use React, as well as getting a better practice with bootstrap and styling. 
+I build this new portfolio as a way to have better presenting porfolio about myself, projects, and skills. By doing this, I got to learn how to use React, as well as getting a better practice with bootstrap and styling. 
 
 
 ## Usage
