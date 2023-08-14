@@ -1,15 +1,15 @@
 import { Link, useLocation } from 'react-router-dom'
 import '../components/Nav.css'
-import blueBackground from '../assets/blue.jpeg'
+import neutralBackground from '../assets/neutral.jpeg'
 
 function Nav(){
     const currentPage = useLocation().pathname;
 
     return(
         <>
-        {/* <div className="background" style={{ backgroundImage: `url(${blueBackground})`}}> */}
-        <ul className="nav justify-content-space-between nav-tabs">
-        <header className="name-title">Nneif Akpunonu</header>
+        <div style={{ backgroundImage: `url(${neutralBackground})`}}>
+        <ul className="nav nav-tabs justify-content-end flex-column flex-md-row">
+        <header className="title">Nneif Akpunonu</header>
             <li className="nav-item">
                 <Link
                     to='/about'
@@ -43,6 +43,7 @@ function Nav(){
                 </Link>
             </li>
         </ul>
+        </div>
         </>
     );
 }
