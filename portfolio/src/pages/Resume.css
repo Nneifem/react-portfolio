@@ -3,10 +3,23 @@
     color: 	#634832;
 }
 
+.resume-link:hover {
+    padding: 40px;
+    color: 	#C78752
+}
+
 .front-end {
     padding: 40px;
 }
 
 .back-end {
     padding: 40px;
+}
+
+.front-list {
+    list-style: square;
+}
+
+.back-list {
+    list-style: square;
 }
