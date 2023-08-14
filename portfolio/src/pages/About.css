@@ -20,3 +20,10 @@ body {
     color: #38220f;
     font-family: 'American Typewriter';
   }
+
+  @media screen and (max-width: 768px){
+    .bio {
+        padding-top: 16px;
+        padding-left: 30px;
+    }
+}
