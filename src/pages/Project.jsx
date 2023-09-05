@@ -5,6 +5,7 @@ import textEditorImage from '../assets/text.png'
 import noteTakerImage from '../assets/note.png'
 import passwordGeneratorImage from '../assets/password.png'
 import githubLogo from '../assets/github.svg.png'
+import habitYourWayImage from '../assets/habityourway.png'
 import './style/Project.css'
 
 export default function Project(){
@@ -22,6 +23,13 @@ export default function Project(){
             websiteLink: "https://bookbusta-950538aa625f.herokuapp.com/",
             description: 'create an account, find books, and leave reviews',
             image: bookbustaImage,
+        },
+        {
+            name: "Habit Your Way",
+            githubLink: "https://github.com/slmov215/habit-your-way",
+            websiteLink: "https://habit-your-way-habit-tracker-8b86617a280e.herokuapp.com/",
+            description: 'keep track of your daily activities',
+            image: habitYourWayImage,
         },
         {
             name: "Weather Dashboard",
