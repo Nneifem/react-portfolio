@@ -69,6 +69,7 @@ export default function Project(){
                 {
                     projects.map((project, i) => (
                         <li key = {i}>
+                        <div className='card'>
                         <div className="project-section">
                             <img src={project.image} className="image" alt="each picture image"></img>
                             <div className="project-info">
@@ -78,6 +79,7 @@ export default function Project(){
                             <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
                             <p>{project.description}</p>
                             </div>
+                        </div>
                         </div>
                         </li>
                     ))

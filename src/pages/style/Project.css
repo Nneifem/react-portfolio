@@ -2,6 +2,12 @@ section ul {
     list-style: none;
 }
 
+.card {
+    padding: 2px;
+    margin: 20px;
+    background-color: #38220f;
+}
+
 .github-image {
     width: 2em;
 }
@@ -49,7 +55,7 @@ a:link, a:visited {
 
 @media screen and (max-width: 768px){
     .image {
-        width: 22rem;
+        width: 30rem;
     }
 
     .projects {

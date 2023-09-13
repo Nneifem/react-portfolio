@@ -28,6 +28,7 @@ export default function Resume(){
                 <li>MIPS</li>
                 <li>MongoDB</li>
                 <li>Mongoose</li>
+                <li>Sequelize</li>
             </ul>
         </section>
         </body>

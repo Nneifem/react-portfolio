@@ -4,10 +4,11 @@ import './style/About.css'
 export default function About(){
     return(
         <>
-        <div className="about-me">
+
         <h3>About me</h3>
-        <img src={selfieImage} className="selfie" alt="picture of nneif"></img>
-        <p className="bio">Hello, I'm Nneif Akpunonu, currently as information techology student at Montgomery County Community College. Did not get into coding until my first year of college in my first coding class when we briefly talked about HTML and CSS. It was the first time I enjoyed coding and deciding to purse a career as a Front-End Developer.</p>
+        <div className="about-me">
+        <img src={selfieImage} className="img-fluid" alt="picture of nneif"></img>
+        <p className="bio">Hello, I'm Nneif Akpunonu and I'm a information technology student and have a Full Stack Developer certificate I earned at the University of Pennsylvania. I didn't get into coding until my second semester freshman year of college and that's when I discovered my love for web development, specifically the front-end. Looking to expand my skills and grow more as a Front-End Developer.  </p>
         </div>
         </>
     )
