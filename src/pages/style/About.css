@@ -20,6 +20,10 @@ body {
     font-family: 'American Typewriter';
   }
 
+a:link {
+    color: #a2632c;
+}
+
   @media screen and (max-width: 768px){
     .bio {
         padding-top: 16px;

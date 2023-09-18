@@ -8,7 +8,7 @@ export default function About(){
         <h3>About me</h3>
         <div className="about-me">
         <img src={selfieImage} className="img-fluid" alt="picture of nneif"></img>
-        <p className="bio">Hello, I'm Nneif Akpunonu and I'm a information technology student and have a Full Stack Developer certificate I earned at the University of Pennsylvania. I didn't get into coding until my second semester freshman year of college and that's when I discovered my love for web development, specifically the front-end. Looking to expand my skills and grow more as a Front-End Developer.  </p>
+        <p className="bio">Hello, I'm Nneif Akpunonu and I'm a information technology student and have a Full Stack Developer certificate I earned at the University of Pennsylvania. I didn't get into coding until my second semester freshman year of college and that's when I discovered my love for web development, specifically the front-end. Looking to expand my skills and grow more as a Front-End Developer. <br /> <br />For any inquiries or questions, react me by email: <a href="mailto:nneifemakpunonu@gmail.com">nneifemakpunonu@gmail.com</a></p>
         </div>
         </>
     )

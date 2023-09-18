@@ -5,7 +5,8 @@ section ul {
 .card {
     padding: 2px;
     margin: 20px;
-    background-color: #38220f;
+    /* background-color: #38220f; */
+    background-color: #5F4029;
 }
 
 .github-image {
@@ -18,10 +19,15 @@ section ul {
 
 .project-title { 
     font-size: 30px;
+    color: #D4B59E;
 }
 
-a:link, a:visited {
-    color: #38220f;
+.project-description {
+    color: #D4B59E;
+}
+
+.project-info {
+    text-align: center;
 }
 
 .projects {
@@ -33,24 +39,6 @@ a:link, a:visited {
 .project-section {
     position: relative;
     margin: 5px;
-}
-
-.project-info {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    background-color: #c78752;
-    visibility: none;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.project-section:hover .project-info {
-    visibility: visible;
-    opacity: 0.9;
 }
 
 @media screen and (max-width: 768px){
