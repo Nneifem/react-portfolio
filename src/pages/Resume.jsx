@@ -1,4 +1,4 @@
-import resumePdf from './resume.pdf'
+import resumePdf from './Nneifem.pdf'
 import './style/Resume.css'
 export default function Resume(){
     return(
