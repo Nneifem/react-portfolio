@@ -6,6 +6,7 @@ import noteTakerImage from '../assets/note.png'
 import passwordGeneratorImage from '../assets/password.png'
 import githubLogo from '../assets/github.svg.png'
 import habitYourWayImage from '../assets/habityourway.png'
+import corbinPortfolio from '../assets/corbinportfolio.png'
 import './style/Project.css'
 
 export default function Project(){
@@ -69,6 +70,14 @@ export default function Project(){
             image: passwordGeneratorImage,
             technology: 'HTML, CSS, JavaScript'
         },
+        {
+            name: "Corbin Portfolio",
+            githubLink: "https://github.com/Nneifem/corbin-portfolio",
+            websiteLink: "https://corbinportfolio.netlify.app/",
+            description: 'portfolio to view Corbins art, music, and youtube ',
+            image: corbinPortfolio,
+            technology: 'React, Vite, Bootstrap, CSS'
+        }
 
     ]
     
