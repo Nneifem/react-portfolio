@@ -1,10 +1,10 @@
 import resumePdf from './Nneifem.pdf'
 import './style/Resume.css'
+
 export default function Resume(){
     return(
         <>
-        <h3>Resume</h3>
-        <body>
+        <h3 className="resume-title">Skills & Resume</h3>
         <a href={resumePdf} download='resume-pdf' target='_blank' rel='noreferrer' className="resume-link">Download my resume</a>
         <section className="front-end">
             <h4>Front-End Skills</h4>
@@ -31,7 +31,6 @@ export default function Resume(){
                 <li>Sequelize</li>
             </ul>
         </section>
-        </body>
         </>
     )
 };

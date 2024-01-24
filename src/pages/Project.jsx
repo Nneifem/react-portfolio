@@ -29,13 +29,12 @@ export default function Project(){
             technology2: 'handlebars, sequelize, mysql2, bootstrap, JavaScript'
         },
         {
-            name: "Habit Your Way",
-            githubLink: "https://github.com/slmov215/habit-your-way",
-            websiteLink: "https://habit-your-way-habit-tracker-8b86617a280e.herokuapp.com/",
-            description: 'keep track of your daily activities',
-            image: habitYourWayImage,
-            technology: 'react, apollo, bootstrap, node.js, express.js, graphQL,',
-            technology2: 'mongoDB, JWT, cloudinary api'
+            name: "Corbin Portfolio",
+            githubLink: "https://github.com/Nneifem/corbin-portfolio",
+            websiteLink: "https://corbinportfolio.netlify.app/",
+            description: 'portfolio to view Corbins art, music, and youtube ',
+            image: corbinPortfolio,
+            technology: 'React, Vite, Bootstrap, CSS'
         },
         {
             name: "Weather Dashboard",
@@ -63,21 +62,14 @@ export default function Project(){
             technology: 'HTML, CSS, JavaScript, node.js, express.js'
         },
         {
-            name: "Password Generator",
-            githubLink: "https://github.com/Nneifem/password-generator",
-            websiteLink: "https://nneifem.github.io/password-generator/",
-            description: 'generate a new password',
-            image: passwordGeneratorImage,
-            technology: 'HTML, CSS, JavaScript'
+            name: "Habit Your Way",
+            githubLink: "https://github.com/slmov215/habit-your-way",
+            websiteLink: "https://habit-your-way-habit-tracker-8b86617a280e.herokuapp.com/",
+            description: 'keep track of your daily activities',
+            image: habitYourWayImage,
+            technology: 'react, apollo, bootstrap, node.js, express.js, graphQL,',
+            technology2: 'mongoDB, JWT, cloudinary api'
         },
-        {
-            name: "Corbin Portfolio",
-            githubLink: "https://github.com/Nneifem/corbin-portfolio",
-            websiteLink: "https://corbinportfolio.netlify.app/",
-            description: 'portfolio to view Corbins art, music, and youtube ',
-            image: corbinPortfolio,
-            technology: 'React, Vite, Bootstrap, CSS'
-        }
 
     ]
     
@@ -87,8 +79,42 @@ export default function Project(){
             <ul className="projects">
                 {
                     projects.map((project, i) => (
-                        <li key = {i}>
-                        <div className='card'>
+                        <li className="list" key = {i}>
+                           <div className="card">
+                            <h4 className="card-header">{project.name}</h4>
+                            <p className="project-detail">"{project.description}"</p>
+                            <img src={project.image} className="img-fluid" alt="each picture image"></img>
+                            <div className="card-body">
+                                <p className="tech-used">Technologies Used: <br></br>{project.technology} <br></br> {project.technology2}</p>
+                                <a href={project.websiteLink} className="web-link">Website Link</a>
+                                <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
+                            </div>
+                           </div>
+                        </li>
+                    ))
+                }
+            </ul>
+        </section>
+    )
+};
+
+
+{/* <div className="flip-card">
+                                <div className="flip-card-inner">
+                                <div className="front-card">
+                                <img src={project.image} className="image" alt="each picture image"></img>
+                            </div>
+                            <div className="back-card">
+                                <div className="project-title">
+                                        <a href={project.websiteLink} style={{color: "#38220f"}}>{project.name}</a>
+                                </div>
+                                <h5>"{project.description}"</h5>
+                                <p>Technology Used: {project.technology} {project.technology2}</p>
+                                <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
+                            </div>
+                                </div>
+                            </div> */}
+                        {/* <div className='card'>
                         <div className="project-section">
                             <img src={project.image} className="image" alt="each picture image"></img>
                             <div className="project-info">
@@ -103,11 +129,4 @@ export default function Project(){
                             </div>
                             </div>
                         </div>
-                        </div>
-                        </li>
-                    ))
-                }
-            </ul>
-        </section>
-    )
-};
+                        </div> */}

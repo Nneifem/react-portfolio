@@ -1,60 +1,53 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 section ul {
     list-style: none;
 }
 
-.card {
-    padding: 2px;
-    margin: 20px;
-    /* background-color: #38220f; */
-    background-color: #5F4029;
+.img-fluid {
+    width: 25em;
 }
 
 .github-image {
-    width: 2em;
+    width: 1.5em;
 }
 
-.image {
-    width: 37em;
+.card {
+    background-color: #7aae91;
+    opacity: 86%;
+    margin: 20px;
 }
 
-.project-title { 
-    font-size: 30px;
-    color: #D4B59E;
-}
-
-.project-description {
-    color: #D4B59E;
-}
-
-.project-info {
+.card-header {
+    font-size: 35px;
     text-align: center;
 }
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.project-detail {
+    padding-top: 10px;
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
 }
 
-.project-section {
-    position: relative;
-    margin: 5px;
+.tech-used {
+    font-size: 16px;
 }
+
+a.web-link {
+    color: black;
+    padding-right: 20px;
+}
+
 
 @media screen and (max-width: 768px){
-    .image {
-        width: 30rem;
-    }
-
     .projects {
-        padding-right: 35px;
-    }
-
-    .project-title { 
-        font-size: 20px;
-    }
-
-    .github-image {
-        width: 1.5em;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 }

@@ -1,0 +1,41 @@
+span.title.navbar-brand {
+    color: #dc6601;
+    font-size: 45px;
+    padding-left: 50px;
+}
+
+.navbar-nav {
+  margin-left: 15px;
+}
+
+.navbar-collapse.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .nav {
+    padding-top: 20px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.nav .nav-item .nav-link {
+    font-size: 17px;
+    color: #3f704d;
+  }
+
+.nav .nav-item .nav-link:hover {
+    color: #00a86b;
+  }  */
+
+
+  @media screen and (max-width: 992px){
+    span.title.navbar-brand {
+      padding-left: 10px;
+      font-size: 33px;
+    }
+
+    .navbar-collapse.collapse {
+      justify-content: start;
+    }
+}

@@ -1,11 +1,10 @@
 .resume-link {
-    padding: 40px;
-    color: 	#634832;
+    display: flex;
+    justify-content: center;
 }
 
 .resume-link:hover {
-    padding: 40px;
-    color: 	#C78752
+    color:#01796f;
 }
 
 .front-end {

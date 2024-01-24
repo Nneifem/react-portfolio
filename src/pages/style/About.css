@@ -1,32 +1,42 @@
-.img-fluid {
-    width: 12em;
-    padding-left: 30px;
-    
-}
-
 .bio {
     padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100vh;
+}
+
+h2 {
+    padding-top: 50px;
+    font-size: 70px;
 }
 
 h3 {
+    /* color: #e88504; */
+    color: #38220f;
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
     font-family: 'Impact', fantasy;
 }
 
 body {
-    background-color: #dbc1ac;
     color: #38220f;
+    font-size: 20px;
     font-family: 'American Typewriter';
   }
 
+
 a:link {
-    color: #a2632c;
+  color: #38220f;
+}
+
+a:link:hover {
+  color:#01796f;
 }
 
   @media screen and (max-width: 768px){
     .bio {
-        padding-top: 16px;
-        padding-left: 30px;
+        padding-right: 50px;
+        padding-left: 90px;
     }
 }
