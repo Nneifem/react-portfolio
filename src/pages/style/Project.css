@@ -49,5 +49,10 @@ a.web-link {
     .projects {
         flex-wrap: nowrap;
         flex-direction: column;
+        padding-right: 30px;
+    }
+
+    .project-name {
+        padding-right: 40px;
     }
 }

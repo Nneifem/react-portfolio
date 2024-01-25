@@ -43,3 +43,9 @@
 .github-link:hover {
     color: #01796f;
 }
+
+@media screen and (max-width: 768px){
+    .resume-title {
+        padding-right: 40px;
+    }
+}
