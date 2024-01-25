@@ -5,7 +5,12 @@ export default function Resume(){
     return(
         <>
         <h3 className="resume-title">Skills & Resume</h3>
+        <p className="social-links">
+            <a href="https://www.linkedin.com/in/nneif-akpunonu-2799a4266/" className="linkedin-link">Linkedin</a>
+            <a href="https://github.com/Nneifem" className="github-link">Github</a>
+        </p>
         <a href={resumePdf} download='resume-pdf' target='_blank' rel='noreferrer' className="resume-link">Download my resume</a>
+        <p className=""></p>
         <section className="front-end">
             <h4>Front-End Skills</h4>
             <ul className="front-list">

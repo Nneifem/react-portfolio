@@ -22,3 +22,24 @@
 .back-list {
     list-style: square;
 }
+
+.social-links {
+    text-align: center;
+}
+
+.linkedin-link {
+    padding-right: 15px;
+    color: #38220f;
+}
+
+.linkedin-link:hover {
+    color: #01796f;
+}
+
+.github-link {
+    color: #38220f;
+}
+
+.github-link:hover {
+    color: #01796f;
+}
