@@ -9,10 +9,9 @@ I build this new portfolio as a way to have better presenting porfolio about mys
 
 Upon opening the portfolio webpage, you can click on either of the four tabs or at the footer of the page be redirected to the github profile, linkedin, or stackoverflow. When on the portfolio tab, if you hover on any of the images, the name of the website, repo link, and short description will appear. On the contact section, you are required to fill in the name, email, and message section otherwise you will get message saying it's required. The resume tab has a link in order to download the resume to view properly.
 
-![alt text](assets/images/Screenshot%202023-08-14%20at%2012.34.45%20PM.png)
-![alt text](assets/images/Screenshot%202023-08-14%20at%2012.35.19%20PM.png)
-![alt text](assets/images/Screenshot%202023-08-14%20at%2012.35.28%20PM.png)
-![alt text](assets/images/Screenshot%202023-08-14%20at%2012.35.42%20PM.png)
+![alt text](assets/images/Screenshot%202024-01-24%20at%208.25.03%E2%80%AFPM.png)
+![alt text](assets/images/Screenshot%202024-01-24%20at%208.25.18%E2%80%AFPM.png)
+![alt text](assets/images/Screenshot%202024-01-24%20at%208.25.49%E2%80%AFPM.png)
 
 
 ## License
