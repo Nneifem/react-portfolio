@@ -20,6 +20,8 @@ export default function Resume(){
                 <li>Bootstrap</li>
                 <li>React</li>
                 <li>Java</li>
+                <li>Figma</li>
+                <li>Rest APIs</li>
             </ul>
         </section>
         <section className="back-end">

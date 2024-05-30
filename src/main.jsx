@@ -6,6 +6,7 @@ import App from './App.jsx'
 import About from './pages/About'
 import Project from './pages/Project'
 import Resume from './pages/Resume'
+import UI from './pages/UI'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/project',
         element: <Project />
+      },
+      {
+        path: '/uiproject',
+        element: <UI />
       },
       {
         path: '/resume',

@@ -1,0 +1,15 @@
+.ui-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a.web-link {
+    color: black;
+    padding-right: 20px;
+}
+
+a.web-link:hover {
+    color:#01796f;
+  }

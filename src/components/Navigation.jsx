@@ -26,7 +26,15 @@ function Navigation(){
                     to='/project'
                     className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >
-                    Portfolio
+                    Websites
+                </Link>
+            </li>
+            <li className="nav-item">
+                <Link
+                    to='/uiproject'
+                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                >
+                    UI Design
                 </Link>
             </li>
             <li className="nav-item">

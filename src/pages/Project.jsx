@@ -86,7 +86,7 @@ export default function Project(){
                             <img src={project.image} className="img-fluid" alt="each picture image"></img>
                             <div className="card-body">
                                 <p className="tech-used">Technologies Used: <br></br>{project.technology} <br></br> {project.technology2}</p>
-                                <a href={project.websiteLink} className="web-link">Website Link</a>
+                                <a href={project.websiteLink} className="web-link">View Page</a>
                                 <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
                             </div>
                            </div>
