@@ -31,7 +31,7 @@ function Navigation(){
             </li>
             <li className="nav-item">
                 <Link
-                    to='/uiproject'
+                    to='/ui'
                     className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >
                     UI Design
