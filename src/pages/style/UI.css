@@ -13,3 +13,9 @@ a.web-link {
 a.web-link:hover {
     color:#01796f;
   }
+
+  @media screen and (max-width: 768px){
+    .card {
+        margin-right: 40px;
+    }
+}
