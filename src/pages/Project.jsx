@@ -20,15 +20,6 @@ export default function Project(){
             technology: 'HTML, CSS, JavaScript, recipe/nutrition api'
         },
         {
-            name: "Bookbusta",
-            githubLink: "https://github.com/Nneifem/bookbusta",
-            websiteLink: "https://bookbusta-950538aa625f.herokuapp.com/",
-            description: 'create an account, find books, and leave reviews',
-            image: bookbustaImage,
-            technology: 'book api, axois, bcrypt, dotenv, express, session,',
-            technology2: 'handlebars, sequelize, mysql2, bootstrap, JavaScript'
-        },
-        {
             name: "Corbin Portfolio",
             githubLink: "https://github.com/Nneifem/corbin-portfolio",
             websiteLink: "https://corbinportfolio.netlify.app/",
@@ -43,32 +34,6 @@ export default function Project(){
             description: 'checkout the weather anywhere for the next 5 days',
             image: weatherDashboardImage,
             technology: 'HTML, CSS, JavaScript, OpenWeatherMap api'
-        },
-        {
-            name: "Text Editor",
-            githubLink: "https://github.com/Nneifem/text-editor",
-            websiteLink: "https://nneif-text-editor-2d4fcad3ac4f.herokuapp.com/",
-            description: 'write some text online or offline',
-            image: textEditorImage,
-            technology: 'HTML, CSS, JavaScript, progressive web application(PWA)',
-            technology2: 'express'
-        },
-        {
-            name: "Note Taker",
-            githubLink: "https://github.com/Nneifem/note-taker",
-            websiteLink: "https://nneif-note-taker.herokuapp.com/",
-            description: 'create, update, and delete notes',
-            image: noteTakerImage,
-            technology: 'HTML, CSS, JavaScript, node.js, express.js'
-        },
-        {
-            name: "Habit Your Way",
-            githubLink: "https://github.com/slmov215/habit-your-way",
-            websiteLink: "https://habit-your-way-habit-tracker-8b86617a280e.herokuapp.com/",
-            description: 'keep track of your daily activities',
-            image: habitYourWayImage,
-            technology: 'react, apollo, bootstrap, node.js, express.js, graphQL,',
-            technology2: 'mongoDB, JWT, cloudinary api'
         },
 
     ]
